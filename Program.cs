@@ -8,15 +8,16 @@
     {
         Console.Write("Введите строку №{0}:\r\n    ", i + 1);
         strs[i] = Console.ReadLine(); //Заполняем его
+        strs[i] = strs[i].Substring(0, 3);
     }
-    Console.WriteLine("Выводим массив строк:");
+    Console.WriteLine("Выводим массив по-строчно из первых трех символов строки:");
     {
         for (int i = 0; i < n; i++)
         {
             Console.WriteLine(strs[i]);
         }
     }
-
+    Console.WriteLine("Нажмите [Enter] для выхода из программы");
     Console.ReadLine();
 }
 
