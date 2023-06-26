@@ -9,6 +9,13 @@
         Console.Write("Введите строку №{0}:\r\n    ", i + 1);
         strs[i] = Console.ReadLine(); //Заполняем его
     }
+    Console.WriteLine("Выводим массив строк:");
+    {
+        for (int i = 0; i < n; i++)
+        {
+            Console.WriteLine(strs[i]);
+        }
+    }
 
     Console.ReadLine();
 }
