@@ -16,7 +16,7 @@
             //if (strs[i].Length <= 3) (второй вариант, только строки меньше трех символо)
             //{
             //Console.WriteLine(strs[i].Split().Count(i => i.Length <= 4)); (счет слов кол-во символов меньше четырех)
-            Console.WriteLine(String.Join(" ", strs[i].Split().Where(i => i.Length <= 4)));
+            Console.WriteLine(String.Join(" ", strs[i].Split().Where(i => i.Length <= 3)));
             //Console.WriteLine(strs[i]);
             //}
         }
